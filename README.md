@@ -16,7 +16,7 @@ import path_parent.pp		# append '../..' to path setting;
 
 import path_parent.ppp		# append '../../..' to path setting;
 
-import path_parent			# nothing happen;
+import path_parent			# nothing appended;
 
 path_parent.clear("../..")			# remove only '../..';
 
